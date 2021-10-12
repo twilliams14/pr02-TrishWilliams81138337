@@ -1,0 +1,202 @@
+/* Patricia Williams CSS File */
+
+body {
+	background-color: white;
+	font-family: Arial, Monospace, serif;
+}
+h1 {
+	color: red;
+	text-align: left;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/*Font Section*/
+.font1 {
+	font-family: Crystal Lake;
+	font-size: 16px;
+}
+
+.font2 {
+	font-family: Minimal;
+	font-size: 16px;
+}
+
+.font3 {
+	font-family: Luna;
+	font-size: 16px;
+}
+
+/*Color Section*/
+.color_back{
+	background:yellow;
+}
+.color1{
+	color:DodgerBlue;
+}
+.color2{
+	color:rgb(60,179,113);
+}
+.color3{
+	color:#FF8882;
+}
+
+/*Format Section*/
+.format1{
+	font-weight: bold;
+}
+
+.format2{
+	font-style: italic;
+}
+
+.format3{
+	text-decoration: underline;
+}
+
+.format4{
+	text-decoration: line-through;
+}
+
+.format5{
+	text-shadow: 1px 1px;
+}
+
+/*Selector Section*/
+.selec1{
+	background: aquamarine;
+}
+
+#selec2{
+	background-color: chartreuse;
+}
+
+div[selec3]{
+	background-color: MistyRose;
+}
+
+/*Location Section*/
+/*first one is inline style
+the second is p2 embedded in the body*/
+
+.loc3{
+	color: MediumPurple;
+}
+
+/*Sizes Section*/
+/*embedded in the style header*/
+
+/*Icon Section*/
+/*embedded with the link and then inserted the icon's code*/
+
+/*Border Section*/
+/*Embedded in the style header*/
+
+/*Psuedo Section*/
+/*Embedded in the style header*/
+
+
+/*Spacings Section*/
+div[container]{
+	box-sizing: content-box;
+	margin: 10px 20px 30px 40px;
+	padding: 10px 20px 30px 40px;
+	border: solid 2pt black;
+	background-color: BlanchedAlmond;
+	border-radius: 10px;
+}
+
+/*Displays Section*/
+.span1{
+	display: block;
+	background-color: SpringGreen; 
+}
+
+.span2{
+	display: inline;
+	background-color: Orange;
+}
+.span3{
+	display: inline;
+	background-color: Aqua;
+}
+.span4{
+	display: inline;
+	background-color: AliceBlue;
+}
+
+/*Alignment Section*/
+.left{
+	text-align: left;
+}
+
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+/*Overflow Section*/
+.overflow{
+	background-color: yellow;
+	width: 200px;
+	height: 100px;
+	border: 1px black;
+	overflow: scroll;
+}
+
+/*Position Section*/
+/*block A */
+.absolute1{
+	position: absolute;
+	background-color: DarkSeaGreen;
+	width: 100px;
+	height: 40px;
+	top: 2225px;
+	left: 200px;
+	color: white;
+	text-align: center;
+	z-index: 1;
+	
+}
+/*block B */
+.inline1{
+	display: inline-block;
+	background-color: SteelBlue;
+	color: white;
+	text-align: center;
+	height: 40px;
+	width:60px;
+}
+/*block C */
+.inline2{
+	position: absolute;
+	background-color: Teal;
+	color: white;
+	text-align: left;
+	height: 40px;
+	width: 100%;
+}
+/*block D */
+.absolute2{
+	position: absolute;
+	background-color: orange;
+	color: white;
+	text-align: left;
+	height: 40px;
+	width: 100%;
+}
+/*block E */
+.absolute3{
+	position: absolute;
+	background-color: DarkOrchid;
+	width:75px;
+	height: 40px;
+	top: 2250px;
+	left: 100px;
+	color: white;
+	text-align: center;
+	z-index: 1;
+}
